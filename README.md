@@ -17,7 +17,7 @@ ai-programming-foundations-project/
 ├── module_summary.pdf           # Academic summary report (Methodology, EDA, Bias, References)
 ├── requirements.txt             # Python dependencies for reproducible environment
 └── README.md                    # Project documentation and setup guide
-
+```
 ---
 
 ## Key Workflow Modules
@@ -45,23 +45,28 @@ ai-programming-foundations-project/
 ### Step-by-Step Instructions
 
 1. **Clone the repository:**
+   ```text
    ```bash
    git clone https://github.com/stanleyzeya88/ai-programming-foundations-project.git
    cd ai-programming-foundations-project
+   ```
 
-2. **Create and activate a Conda environment:**
+3. **Create and activate a Conda environment:**
+   ```text
    ```bash
    conda create -n capstone-proj1 python=3.10 -y
    conda activate capstone-proj1
-
+   ```
 Install dependencies:
-
-pip install -r requirements.txt
-
+   ```text
+   pip install -r requirements.txt
+   ```
 Launch Jupyter Notebook:
+   ```text
+   jupyter notebook data_workflow.ipynb
+   ```
 
-jupyter notebook data_workflow.ipynb
-
-Citation & Dataset Source
--Dataset: UCI Machine Learning Repository — Wine Quality Dataset (Cortez et al., 2009).
--License: Open Academic / Research Use.
+### Citation & Dataset Source
+- Dataset: UCI Machine Learning Repository 
+- Wine Quality Dataset (Cortez et al., 2009).
+- License: Open Academic / Research Use.
