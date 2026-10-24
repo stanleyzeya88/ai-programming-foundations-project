@@ -67,6 +67,12 @@ Launch Jupyter Notebook:
    ```
 
 ### Citation & Dataset Source
-- Dataset: UCI Machine Learning Repository 
-- Wine Quality Dataset (Cortez et al., 2009).
-- License: Open Academic / Research Use.
+-  Dataset: UCI Machine Learning Repository — Wine Quality Dataset (Cortez et al., 2009).
+-  License: Open Academic / Research Use.
+   ```text
+   After executing the cell, push the fix via PowerShell:
+   ```powershell
+   git add README.md
+   git commit -m "Fix README formatting for code blocks and setup steps"
+   git push origin main
+   ```
