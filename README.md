@@ -53,3 +53,15 @@ ai-programming-foundations-project/
    ```bash
    conda create -n capstone-proj1 python=3.10 -y
    conda activate capstone-proj1
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Launch Jupyter Notebook:
+
+jupyter notebook data_workflow.ipynb
+
+Citation & Dataset Source
+-Dataset: UCI Machine Learning Repository — Wine Quality Dataset (Cortez et al., 2009).
+-License: Open Academic / Research Use.
