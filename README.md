@@ -10,14 +10,13 @@ This repository contains a modular, reproducible Python data processing and expl
 ai-programming-foundations-project/
 ├── data_workflow.ipynb          # Main Jupyter Notebook with data processing, EDA, & plots
 ├── winequality-red.csv          # UCI Red Wine Quality dataset (semicolon delimited)
-├── winequality-white.csv        # UCI White Wine Quality dataset
 ├── plot1_alcohol_vs_quality.png # Box plot: Alcohol distribution across quality ratings
 ├── plot2_correlation_heatmap.png# Heatmap: Physicochemical property correlation matrix
 ├── plot3_acidity_comparison.png # Scatter plot: Volatile acidity vs. citric acid by tier
 ├── module_summary.pdf           # Academic summary report (Methodology, EDA, Bias, References)
 ├── requirements.txt             # Python dependencies for reproducible environment
 └── README.md                    # Project documentation and setup guide
-
+```
 ---
 
 ## Key Workflow Modules
@@ -45,11 +44,29 @@ ai-programming-foundations-project/
 ### Step-by-Step Instructions
 
 1. **Clone the repository:**
+   ```text
    ```bash
    git clone https://github.com/stanleyzeya88/ai-programming-foundations-project.git
    cd ai-programming-foundations-project
+   ```
 
-2. **Create and activate a Conda environment:**
+3. **Create and activate a Conda environment:**
+   ```text
    ```bash
    conda create -n capstone-proj1 python=3.10 -y
    conda activate capstone-proj1
+   ```
+Install dependencies:
+   ```text
+   pip install -r requirements.txt
+   ```
+Launch Jupyter Notebook:
+   ```text
+   jupyter notebook data_workflow.ipynb
+   ```
+
+## Citation & Dataset Source
+
+- **Dataset:** UCI Machine Learning Repository — Wine Quality Dataset (Cortez et al., 2009).
+- **Source URL:** https://archive.ics.uci.edu/dataset/186/wine+quality
+- **License:** Open academic / research use.
