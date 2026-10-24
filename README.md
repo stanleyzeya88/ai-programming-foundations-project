@@ -17,3 +17,39 @@ ai-programming-foundations-project/
 ├── module_summary.pdf           # Academic summary report (Methodology, EDA, Bias, References)
 ├── requirements.txt             # Python dependencies for reproducible environment
 └── README.md                    # Project documentation and setup guide
+
+---
+
+## Key Workflow Modules
+
+### 1. Custom Cleaning Functions
+- **`clean_column_names(dataframe)`**: Standardizes column headers by stripping whitespace, converting text to lowercase, and replacing spaces with underscores (`snake_case`).
+- **`add_quality_tier(dataframe)`**: Discretizes numerical quality ratings (3–8) into three ordinal tiers: **Low** (3–4), **Medium** (5–6), and **High** (7–8).
+
+### 2. Exploratory Data Analysis (EDA)
+- **`compute_wine_summary(dataframe)`**: Computes aggregated summary statistics (**mean**, **standard deviation**, and **median**) across key chemical properties (`alcohol`, `volatile_acidity`, `citric_acid`, `sulphates`, `ph`) grouped by `quality_tier`.
+
+### 3. Visualizations
+1. **Plot 1:** Box plot illustrating alcohol content trends across numerical quality scores.
+2. **Plot 2:** Correlation matrix heatmap evaluating linear relationships among chemical properties.
+3. **Plot 3:** Scatter plot displaying the inverse relationship between volatile acidity and citric acid colored by quality tier.
+
+---
+
+## Environment Setup & Installation
+
+### Prerequisites
+- Python 3.10+
+- Anaconda / Miniconda or `venv`
+
+### Step-by-Step Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/stanleyzeya88/ai-programming-foundations-project.git
+   cd ai-programming-foundations-project
+
+2. **Create and activate a Conda environment:**
+   ```bash
+   conda create -n capstone-proj1 python=3.10 -y
+   conda activate capstone-proj1
