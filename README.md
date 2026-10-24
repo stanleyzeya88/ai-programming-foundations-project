@@ -10,7 +10,6 @@ This repository contains a modular, reproducible Python data processing and expl
 ai-programming-foundations-project/
 ├── data_workflow.ipynb          # Main Jupyter Notebook with data processing, EDA, & plots
 ├── winequality-red.csv          # UCI Red Wine Quality dataset (semicolon delimited)
-├── winequality-white.csv        # UCI White Wine Quality dataset
 ├── plot1_alcohol_vs_quality.png # Box plot: Alcohol distribution across quality ratings
 ├── plot2_correlation_heatmap.png# Heatmap: Physicochemical property correlation matrix
 ├── plot3_acidity_comparison.png # Scatter plot: Volatile acidity vs. citric acid by tier
@@ -66,13 +65,8 @@ Launch Jupyter Notebook:
    jupyter notebook data_workflow.ipynb
    ```
 
-### Citation & Dataset Source
--  Dataset: UCI Machine Learning Repository — Wine Quality Dataset (Cortez et al., 2009).
--  License: Open Academic / Research Use.
-   ```text
-   After executing the cell, push the fix via PowerShell:
-   ```powershell
-   git add README.md
-   git commit -m "Fix README formatting for code blocks and setup steps"
-   git push origin main
-   ```
+## Citation & Dataset Source
+
+- **Dataset:** UCI Machine Learning Repository — Wine Quality Dataset (Cortez et al., 2009).
+- **Source URL:** https://archive.ics.uci.edu/dataset/186/wine+quality
+- **License:** Open academic / research use.
